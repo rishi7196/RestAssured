@@ -2,5 +2,77 @@
 <classpath>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8"/>
 	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="lib" path="D:/Software1/restassured/New folder/docs/rest-assured-common-4.3.1-javadoc.jar"/>
+	<classpathentry kind="lib" path="D:/Software1/restassured/New folder/docs/rest-assured-common-4.3.1-sources.jar"/>
+	<classpathentry kind="lib" path="D:/Software1/restassured/New folder/docs/xml-path-4.3.1-javadoc.jar"/>
+	<classpathentry kind="lib" path="D:/Software1/restassured/New folder/docs/xml-path-4.3.1-sources.jar"/>
+	<classpathentry kind="lib" path="D:/Software1/restassured/New folder/commons-lang3-3.4.jar"/>
+	<classpathentry kind="lib" path="D:/Software1/restassured/New folder/groovy-3.0.3.jar"/>
+	<classpathentry kind="lib" path="D:/Software1/restassured/New folder/groovy-xml-3.0.3.jar"/>
+	<classpathentry kind="lib" path="D:/Software1/restassured/New folder/jakarta.activation-api-1.2.2.jar"/>
+	<classpathentry kind="lib" path="D:/Software1/restassured/New folder/jakarta.xml.bind-api-2.3.3.jar"/>
+	<classpathentry kind="lib" path="D:/Software1/restassured/New folder/jaxb-impl-2.3.3.jar"/>
+	<classpathentry kind="lib" path="D:/Software1/restassured/New folder/tagsoup-1.2.1.jar"/>
+	<classpathentry kind="lib" path="D:/Software1/restassured/New folder/xml-path-4.3.1.jar"/>
+	<classpathentry kind="lib" path="D:/Software1/restassured/5/jakarta.activation-api-1.2.2.jar"/>
+	<classpathentry kind="lib" path="D:/Software1/restassured/5/jakarta.xml.bind-api-2.3.3.jar"/>
+	<classpathentry kind="lib" path="D:/Software1/restassured/5/jaxb-impl-2.3.3.jar"/>
+	<classpathentry kind="lib" path="D:/Software1/restassured/5/scala-library-2.13.0.jar"/>
+	<classpathentry kind="lib" path="D:/Software1/restassured/5/scala-support-4.3.1.jar"/>
+	<classpathentry kind="lib" path="D:/Software1/restassured/3/docs/json-path-4.3.1-javadoc.jar"/>
+	<classpathentry kind="lib" path="D:/Software1/restassured/3/docs/json-path-4.3.1-sources.jar"/>
+	<classpathentry kind="lib" path="D:/Software1/restassured/3/docs/rest-assured-4.3.1-javadoc.jar"/>
+	<classpathentry kind="lib" path="D:/Software1/restassured/3/docs/rest-assured-4.3.1-sources.jar"/>
+	<classpathentry kind="lib" path="D:/Software1/restassured/3/docs/rest-assured-common-4.3.1-javadoc.jar"/>
+	<classpathentry kind="lib" path="D:/Software1/restassured/3/docs/rest-assured-common-4.3.1-sources.jar"/>
+	<classpathentry kind="lib" path="D:/Software1/restassured/3/docs/xml-path-4.3.1-javadoc.jar"/>
+	<classpathentry kind="lib" path="D:/Software1/restassured/3/docs/xml-path-4.3.1-sources.jar"/>
+	<classpathentry kind="lib" path="D:/Software1/restassured/3/commons-codec-1.9.jar"/>
+	<classpathentry kind="lib" path="D:/Software1/restassured/3/commons-lang3-3.4.jar"/>
+	<classpathentry kind="lib" path="D:/Software1/restassured/3/commons-logging-1.2.jar"/>
+	<classpathentry kind="lib" path="D:/Software1/restassured/3/groovy-3.0.3.jar"/>
+	<classpathentry kind="lib" path="D:/Software1/restassured/3/groovy-json-3.0.3.jar"/>
+	<classpathentry kind="lib" path="D:/Software1/restassured/3/groovy-xml-3.0.3.jar"/>
+	<classpathentry kind="lib" path="D:/Software1/restassured/3/hamcrest-2.1.jar"/>
+	<classpathentry kind="lib" path="D:/Software1/restassured/3/httpclient-4.5.3.jar"/>
+	<classpathentry kind="lib" path="D:/Software1/restassured/3/httpcore-4.4.6.jar"/>
+	<classpathentry kind="lib" path="D:/Software1/restassured/3/httpmime-4.5.3.jar"/>
+	<classpathentry kind="lib" path="D:/Software1/restassured/3/jakarta.activation-api-1.2.2.jar"/>
+	<classpathentry kind="lib" path="D:/Software1/restassured/3/jakarta.xml.bind-api-2.3.3.jar"/>
+	<classpathentry kind="lib" path="D:/Software1/restassured/3/jaxb-impl-2.3.3.jar"/>
+	<classpathentry kind="lib" path="D:/Software1/restassured/3/rest-assured-4.3.1.jar"/>
+	<classpathentry kind="lib" path="D:/Software1/restassured/3/tagsoup-1.2.1.jar"/>
+	<classpathentry kind="lib" path="D:/Software1/restassured/2/docs/json-schema-validator-4.3.1-javadoc.jar"/>
+	<classpathentry kind="lib" path="D:/Software1/restassured/2/docs/json-schema-validator-4.3.1-sources.jar"/>
+	<classpathentry kind="lib" path="D:/Software1/restassured/2/activation-1.1.jar"/>
+	<classpathentry kind="lib" path="D:/Software1/restassured/2/btf-1.2.jar"/>
+	<classpathentry kind="lib" path="D:/Software1/restassured/2/guava-16.0.1.jar"/>
+	<classpathentry kind="lib" path="D:/Software1/restassured/2/hamcrest-2.1.jar"/>
+	<classpathentry kind="lib" path="D:/Software1/restassured/2/jackson-annotations-2.11.1.jar"/>
+	<classpathentry kind="lib" path="D:/Software1/restassured/2/jackson-core-2.11.1.jar"/>
+	<classpathentry kind="lib" path="D:/Software1/restassured/2/jackson-coreutils-1.9.jar"/>
+	<classpathentry kind="lib" path="D:/Software1/restassured/2/jackson-databind-2.11.1.jar"/>
+	<classpathentry kind="lib" path="D:/Software1/restassured/2/joda-time-2.9.7.jar"/>
+	<classpathentry kind="lib" path="D:/Software1/restassured/2/jopt-simple-5.0.3.jar"/>
+	<classpathentry kind="lib" path="D:/Software1/restassured/2/json-schema-core-1.2.10.jar"/>
+	<classpathentry kind="lib" path="D:/Software1/restassured/2/json-schema-validator-2.2.10.jar"/>
+	<classpathentry kind="lib" path="D:/Software1/restassured/2/json-schema-validator-4.3.1.jar"/>
+	<classpathentry kind="lib" path="D:/Software1/restassured/2/jsr305-3.0.1.jar"/>
+	<classpathentry kind="lib" path="D:/Software1/restassured/2/libphonenumber-8.0.0.jar"/>
+	<classpathentry kind="lib" path="D:/Software1/restassured/2/mailapi-1.4.3.jar"/>
+	<classpathentry kind="lib" path="D:/Software1/restassured/2/msg-simple-1.1.jar"/>
+	<classpathentry kind="lib" path="D:/Software1/restassured/2/rhino-1.7.7.1.jar"/>
+	<classpathentry kind="lib" path="D:/Software1/restassured/2/uri-template-0.9.jar"/>
+	<classpathentry kind="lib" path="D:/Software1/restassured/1/docs/json-path-4.3.1-javadoc.jar"/>
+	<classpathentry kind="lib" path="D:/Software1/restassured/1/docs/json-path-4.3.1-sources.jar"/>
+	<classpathentry kind="lib" path="D:/Software1/restassured/1/docs/rest-assured-common-4.3.1-javadoc.jar"/>
+	<classpathentry kind="lib" path="D:/Software1/restassured/1/docs/rest-assured-common-4.3.1-sources.jar"/>
+	<classpathentry kind="lib" path="D:/Software1/restassured/1/commons-lang3-3.4.jar"/>
+	<classpathentry kind="lib" path="D:/Software1/restassured/1/groovy-3.0.3.jar"/>
+	<classpathentry kind="lib" path="D:/Software1/restassured/1/groovy-json-3.0.3.jar"/>
+	<classpathentry kind="lib" path="D:/Software1/restassured/1/json-path-4.3.1.jar"/>
+	<classpathentry kind="lib" path="D:/Software1/jars/jcommander-1.72.jar"/>
+	<classpathentry kind="lib" path="D:/Software1/jars/guice-4.1.0.jar"/>
+	<classpathentry kind="lib" path="D:/Software1/jars/testng-6.14.3.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
