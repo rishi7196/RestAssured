@@ -52,4 +52,19 @@ public class Payloads {
 				"}";
 	}
 
+	
+	public static String Addbook()
+	{
+		String Payload= "{\r\n\r\n\"name\":\"Learn Appium Automation with Java"
+				+ "\",\r\n\"isbn\":\"bc4zd"
+				+ "\",\r\n\"aisle\":\"2247\",\r\n\"author\""
+				+ ":\"John foe\"\r\n}\r\n"
+				+ " \r\""
+				+ "n";
+           
+				return Payload;
+		
+		
+	}
+
 }

@@ -3,11 +3,11 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="Notes.SumValidation">
+      <class name="test.DynamicJson">
         <methods>
-          <include name="sumOfAmount"/>
+          <include name="Addbook"/>
         </methods>
-      </class> <!-- Notes.SumValidation -->
+      </class> <!-- test.DynamicJson -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

@@ -1,4 +1,4 @@
-package Notes;
+package test;
 
 import files.Payloads;
 import io.restassured.path.json.JsonPath;
