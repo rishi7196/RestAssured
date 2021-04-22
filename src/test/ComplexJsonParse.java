@@ -1,4 +1,4 @@
-package test;
+ package test;
 
 import files.Payloads;
 import io.restassured.path.json.JsonPath;
@@ -7,7 +7,7 @@ public class ComplexJsonParse {
 	
 	public static void main(String[] args) {
 		
-		JsonPath js= new JsonPath(Payloads.coursePrice());
+		JsonPath js= new JsonPath(Payloads.course());
 		
 		//Print the no of course returned by Api
 		

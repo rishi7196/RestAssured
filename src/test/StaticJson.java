@@ -6,14 +6,18 @@ import io.restassured.path.json.JsonPath;
 import static io.restassured.RestAssured.*;
 import static org.hamcrest.Matchers.*;
 
+import java.io.IOException;
+import java.nio.file.Files;
+import java.nio.file.Paths;
+
 import org.testng.Assert;
 
 import files.Payloads;
 import files.ResusableMethods;
 
 
-public class Basic {
-	public static void main(String[] args) {
+public class StaticJson {
+	public static void main(String[] args) throws IOException {
 		
 		//validate if add place Api is working as expected
 		//Rest Assured based on three principle
@@ -21,10 +25,12 @@ public class Basic {
 		//when submit All Api like resource or http method
 		//then -- validate the response
 		//ctrl+shift+f
+		//content of the file to string--> content of file can convert in to
+		// byte-->byte data to string 
 
 		RestAssured.baseURI = "https://rahulshettyacademy.com";
 		String response = given().log().all().queryParam("key", "qaclick123").header("Content-type", "application/json")
-				.body(Payloads.AddPlace()).when().post("maps/api/place/add/json").then().log().all().assertThat()
+				.body(new String(Files.readAllBytes(Paths.get("E:\\addplace.json")))).when().post("maps/api/place/add/json").then().log().all().assertThat()
 				.statusCode(200).body("scope", equalTo("APP")).header("Server", "Apache/2.4.18 (Ubuntu)").extract()
 				.response().asString();
 
@@ -57,5 +63,16 @@ public class Basic {
 		String actualadress = js1.getString("address");
 		System.out.println(actualadress);
 		Assert.assertEquals(actualadress, newAddress);
+	
+	
+	
+	
+	
+	
+	  
+	  
+	  
+		
 	}
+
 }

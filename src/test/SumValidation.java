@@ -13,7 +13,7 @@ public class SumValidation {
 		// decalre one variable and initlize with 0
 
 		int sum = 0;
-		JsonPath js = new JsonPath(Payloads.coursePrice());
+		JsonPath js = new JsonPath(Payloads.course());
 		int count = js.getInt("courses.size()");
 
 		for (int i = 0; i < count; i++) {
