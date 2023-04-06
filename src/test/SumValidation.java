@@ -8,6 +8,7 @@ import io.restassured.path.json.JsonPath;
 
 public class SumValidation {
 	
+	
 	@Test
 	public void sumOfAmount() {
 		// decalre one variable and initlize with 0

@@ -19,7 +19,8 @@ public class ComplexJson {
 		
 		JsonPath js= new JsonPath(Payloads.course());
 		int count=js.getInt("courses.size()");
-		System.out.println(count);
+		int count1=js.getInt("Courses.size()");
+		System.out.println(count); 
 		
 		//2.print purchase amount
 		
@@ -37,7 +38,7 @@ public class ComplexJson {
 		//4.print all tile and respective price
 		
 		for(int i=0;i<count ;i++)
-		{
+		{ 
 			System.out.println(js.get("courses["+i+"].title").toString());
 			System.out.println(js.get("courses["+i+"].price").toString());
 		}

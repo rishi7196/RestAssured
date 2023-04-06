@@ -3,11 +3,11 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="dynamicjson.AddBook">
+      <class name="comlexNexstedjson.ComplexJson">
         <methods>
-          <include name="Add" invocation-numbers="0 1 2"/>
+          <include name="SumValdation"/>
         </methods>
-      </class> <!-- dynamicjson.AddBook -->
+      </class> <!-- comlexNexstedjson.ComplexJson -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
